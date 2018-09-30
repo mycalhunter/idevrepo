@@ -1,3 +1,4 @@
+/*
 console.log("Hello World!");
 //alert("This is an alert");
 //document.write("Hello World Document Write");
@@ -6,9 +7,9 @@ console.error("Show Error Message");
 console.warn("Show Warning Message");
 console.log("%cHello World","color:green");
 console.log("%cHello World","color:white;background:black;padding:5px");
-/*
+
 Multi-line comment
-*/
+
 //single line comment
 //document.write("Welcome");
 //alert("hello");
@@ -49,7 +50,6 @@ var myAge = prompt(question1 + question2 + "?");
 var myName = prompt(question1 + question3 + "?");
 alert(myAge);
 alert(myName);
-*/
 
 //ARITHMETIC OPERATORS
 var myString = "a" + "" + "b";
@@ -119,7 +119,6 @@ var d = ((b%5) > 0) ? "odd" : "even";
 console.log(typeof a == "number");
 console.log(typeof c == typeof "number");
 console.log((d == "odd" && b>10 && b>= (a*2)));
-*/
 
 //STORING MULTIPLE VALUES INSIDE A VARIABLE
 var arr = ["string",100,false]; // literal array
@@ -133,6 +132,7 @@ console.log(arr[0]); //index value of array item "string"
 console.log(arr[1]); //index value of array item 100
 arr[1] = "New Value";
 console.log(arr[1]);
+*/
 
 
 
