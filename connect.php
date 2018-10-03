@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost", "idevhunt_popper", "Lauren-2188", "idevhunt_popcollection");
+$con = mysqli_connect("localhost", "USERNAME", "PASSWORD", "DB");
 
 if (!$con) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
